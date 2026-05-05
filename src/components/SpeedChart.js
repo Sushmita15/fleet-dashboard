@@ -17,7 +17,7 @@ export default function SpeedChart({ data }) {
       {
         label: "Speed",
         data: data.map((d) => d.speed),
-        borderColor: "blue",
+        borderColor: "white",
         fill: false,
       },
     ],
